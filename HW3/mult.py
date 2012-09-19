@@ -12,6 +12,7 @@ for line in iter(sys.stdin.readline, ""):
 	if line == "":
 		print product
 		product = 1
+		continue
 	try:
 		num = float(line)
 		product *= num
